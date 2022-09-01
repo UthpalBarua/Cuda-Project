@@ -1,0 +1,375 @@
+*{ margin: 0;
+   padding: 0;
+   border: 0;
+   text-decoration: none;
+   box-sizing: border-box;
+   font-family: 'Titillium Web', sans-serif;
+   }
+   section{
+          padding: 100px 0px;
+          }
+  .container{
+      width: 90%;
+      margin: auto;
+        }
+    .underline {
+               border-top: 5px solid rgba(0, 0, 0, 0.48) ;
+               width: 7%;
+               margin: 10px auto;
+               }
+    .global-heading{
+                  font-size: 35px;
+                  letter-spacing: 5px;
+                  font-weight: 600;
+                }
+    .small-heading{
+                  font-size: 25px;
+                  font-weight: 600;
+               }
+   header {
+         width:100%;
+         float:left;
+         background-color: #87509c;
+         color:#ffff;
+         }
+    nav {
+            width: 100%;
+            float: left;
+            padding: 10px 0px;
+         }
+   .logo-part{
+               width:50%;
+               float: left;
+               }
+   .menu-part{
+              width:50%;
+              float: left;
+              padding: 10px 0px;
+              text-align: end;
+                  }
+   .menu-part li{
+               display: inline-block;
+               margin: 0px 10px;
+               padding: 5px;
+               border-radius: 5px;
+               }
+   .menu-part li:hover{
+               background-color: rgb(0, 0, 0,0.37);
+   }
+   .menu-part a{
+               font-size: 17px;
+               color: #ffff;
+               font-weight: 600;
+               text-transform: uppercase;
+   }
+    .hero-part{
+      width:100%;
+      float:left;
+      margin: 150px 0px;
+      text-align: center;
+       }
+   .hero-part h1{
+               font-size: 35px;
+               font-weight: 600;
+               width: 60%;
+               margin: auto;
+                 }
+   .hero-part a button{
+                  width: 15%;
+                  padding: 10px;
+                  margin-top: 20px;
+                  color: #ffffff;
+                  background-color: #eb7d4b;
+                  transition:ease-in-out 0.8s;
+                   }
+   .hero-part a button:hover{
+                  box-shadow: 0px 0px 4px #fb4f00;
+                  border-radius: 5px;
+                      }
+     #service{
+      background-color: #17c2a4;
+      color: #ffffff;
+      text-align: center;
+      float: left;
+      width: 100%;
+   }
+   .service-writing-part{
+      width: 100%;
+      float: left;
+
+   }
+   .service-boxing-part{
+      width: 100%;
+      float: left;
+      margin-top: 50px;
+   }
+   .service-box{
+      width: 25%;
+      float: left;
+      padding: 10px;
+   }
+   .service-box h2{
+               margin:  ;
+   }
+   .service-box img{
+            height: 120px;
+   }
+   
+   #team{
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: #e7f1f8;
+   }
+ .team-writing-part{
+            width: 100%;
+            float: left;
+ }
+ .team-box-part{
+               width: 100%;
+               float: left;
+               margin-top: 50px;
+ }
+ .team-box {
+         width: 25%;
+         float: left;
+         padding: 10px;
+ }
+ .team-box img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+
+ }
+ .team-box p{
+   margin: 15px 0px;
+
+ }
+ .team-title{
+            color: #48c1e9;
+            font-size: 16px;
+            font-weight: 400;
+
+ }
+ .team-icons i{
+   background-color:#bdd1df;
+   color: white;
+   width: 35px;
+   padding: 10px;
+   border-radius: 50px;
+   margin: 5px;
+   transition: ease-in-out 0.5s;
+ }
+ .team-icons i:hover{
+   background-color:#ffffff;
+   color: #17c2a4;
+ }
+
+ #Skill{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #ffffff;
+}
+ .skill-box-part{
+            width: 100%;
+            float: left;
+            margin-top: 100px;
+            }
+
+ .skill-box img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ }
+ .skill-box {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+#Portfolio{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #ffdd99;
+}
+.Portfolio-part a button{
+                 width: 7%;
+                padding: 10px;
+               margin-top: 20px;
+              color:black;
+              font-size: 10px;
+              font-family: bold;
+              background-color:#ebc985;
+              transition:ease-in-out 0.8s;
+   }
+.Portfolio-part a button:hover{
+             box-shadow: 0px 0px 4px #fb4f00;
+             border-radius: 5px;
+      }
+      .Portfolio-box img{
+        width: 600px;
+        height: 400px;
+               }
+    .Portfolio-box {
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+
+    #Portfolio-sub-part{
+           background-color: #ffdd99;
+    }
+    .Portfolio-sub-part a button{
+            width: 30%;
+            padding: 20px;
+            margin-top: 150px;
+            color:#ffffff;
+           font-size: 20px;
+          font-family: bold;
+          background-color:#17c2a4;
+        transition:ease-in-out 0.8s;
+    }
+.Portfolio-sub-part a button:hover{
+          box-shadow: 0px 0px 4px #fb4f00;
+            border-radius: 5px;
+}
+
+#About{
+  width: 100%;
+  float: left;
+  text-align: center;
+  background-color: #d74680;
+  color: #ffffff;
+  text-align: center;
+ }
+.About-part-section{
+                width: 100%;
+                float: left
+                   }
+.About-service-box{
+                width: 50%;
+                float: left;
+                   }
+
+   
+                
+                  #testimonial h2::after {
+                    background-color: #b73c6d;
+                  }
+                  
+                  #testimonial h4 {
+                    margin-top: 1.25rem;
+                    font-weight: 400;
+                  }
+                  
+                  .testimonial-items {
+                    text-align: left;
+                    display: flex;
+                    margin-top: 3.125rem;
+                  }
+                  
+                  .client-avatar {
+                    width: 5.625rem;
+                    float: left;
+                  }
+                  
+                  .client-avatar img {
+                    border-radius: 50%;
+                    height: 5.625rem;
+                  }
+                  
+                  .client-review {
+                    width: 60%;
+                    margin-left: 1.875rem;
+                    float: left;
+                  }
+                  
+                  .client-review p {
+                    margin-bottom: 1.875rem;
+                    font-style: italic;
+                    font-size: 1.3125rem !important;
+                  }
+                  
+                  .client-role {
+                    font-size:15px;;
+                    color: #ffdd99;
+                  }
+                  #contact {
+                    width: 100%;
+                   float: left;
+                  text-align: center;
+                  background-color:#3c5499;
+                  color: #ffffff;
+                  text-align: center;
+                            }
+                  #contact h2::after {
+                    background-color: #273a71;
+                  }
+                  
+                  .contact-form {
+                    margin-top: 5px;
+                  }
+                  
+                  .contact-form form {
+                    width: 80%;
+                    margin-left: 10%;
+                  }
+                  
+                  .contact-form form input[type="text"],
+                  .contact-form form input[type="email"],
+                  .contact-form form textarea {
+                    background-color: #273a71;
+                    border: 2px solid #273a71;
+                    width: 80%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    color: #ffffff;
+                    outline: none;
+                    resize: vertical;
+                  }
+                  
+                  .contact-form form ::placeholder {
+                    color: #ffffff !important;
+                    font-size: 15px;
+                  }
+                  
+                   .submit-btn {
+                    background: #30bae7;
+                    width: 30%;
+                    box-shadow: 5px #30bae7;
+                    padding: 20px 50px;
+                    font-size: 20px;
+                    color: #fff;
+                    border-radius: 10px;
+                  }
+                  .submit-btn:active {
+                    box-shadow: 0.8s #30bae7;
+                  }
+                  /* End: Contact Section Styling */
+                  
+                  /* Footer */
+                  footer {
+                    background: #344b8e;
+                    color: #fff;
+                    margin-bottom: 0;
+                    font-size: 1.5rem;
+                    padding: 2.4375rem 0;
+                  }
+                  .footer-links ul {
+                    display: flex;
+                    flex-flow: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 70%;
+                    margin-left: 15%;
+                  }
+                  .footer-links ul li a {
+                    color: #fff;
+                    font-weight: 600;
+                  }
+                  
+                  .footer-links ul li a:hover {
+                    color: #30bae7;
+                  }
